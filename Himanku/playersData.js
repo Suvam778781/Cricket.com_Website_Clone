@@ -1,5 +1,0 @@
-playersData=[
-    {
-        name: ""
-    }
-]
