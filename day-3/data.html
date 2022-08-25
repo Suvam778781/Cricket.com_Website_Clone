@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  .information {
+    display: block;
+    margin: auto;
+    width: 350px;
+    height: 180px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 16px;
+    border-radius: 4px;
+  }
+
+  .namediv {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .status {
+    background-color: rgb(193, 148, 93);
+    width: fit-content;
+    border-radius: 10px;
+    padding: 3px;
+  }
+
+  #cricket_news {
+    width: 60%;
+    margin: auto;
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+  #cricket_news_heading {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .image_for_news{
+display: inline-block;
+width: 350px;
+height: 170px;
+
+  }
+  .news_div{
+   display:flex;
+  }
+
+</style>
+
+<body>
+  <h3>hdduoshfowhcowhcih</h3>
+  <div id="matchinfo">
+
+  </div>
+
+
+  <div id="cricket_news">
+    <div id="cricket_news_heading">
+      <span>NEWS AND ARTICLES</span>
+      <a href="#">></a>
+    </div>
+    <div id="cricket_news_data">
+
+    </div>
+
+  </div>
+</body>
+
+</html>
+
+<script>
+  async function pop() {
+
+    let res = await fetch('https://cricbuzz-cricket.p.rapidapi.com/matches/v1/recent', {
+      method: "GET",
+
+      headers: {
+        'X-RapidAPI-Key': '2bd4dfd17bmshed3d003ac4dca4ap1c998ejsn2857b7d9a6ea',
+        'X-RapidAPI-Host': 'cricbuzz-cricket.p.rapidapi.com'
+      }
+    })
+    let data = await res.json()
+    console.log(data.typeMatches[1].seriesMatches[1].seriesAdWrapper.matches)
+  }
+  pop()
+  function appen(data) {
+    console.log(data)
+    let div = document.createElement("div")
+    //div.style.padding="20px"
+    div.className = "information"
+    div.style.padding = "10px"
+    let h4 = document.createElement("h4")
+    h4.innerText = `${data[0].matchInfo.matchFormat}` + " " + `${data[0].matchInfo.seriesName}`
+    h4.style.marginTop = "6px"
+    let imgdiv = document.createElement("div")
+    imgdiv.style.display = "flex"
+    imgdiv.style.height = "70px"
+    imgdiv.align = "center"
+    let img1 = document.createElement("img")
+    img1.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE7acVBTWF3TB8-4ln2pUKaPL8ZkWbEDDV2Q&usqp=CAU"
+    img1.style.width = "17px"
+    img1.style.height = "19px"
+    img1.style.marginLeft = "20px"
+    let p1 = document.createElement("h3")
+    p1.innerText = data[0].matchInfo.venueInfo.city;
+    // div for team and run & overs
+    let p2 = document.createElement("span")
+    let p3 = document.createElement("span")
+    let namediv1 = document.createElement("div")
+    namediv1.className = "namediv"
+    let namediv2 = document.createElement("div")
+    namediv2.className = "namediv"
+    p2.innerText = `T1:${data[0].matchInfo.team1.teamSName}`
+    p3.innerText = `T2:${data[0].matchInfo.team2.teamSName}`
+    let span1 = document.createElement("span")
+    span1.innerText = data[0].matchScore.team1Score.inngs1.runs + "/" + data[0].matchScore.team1Score.inngs1.wickets + " " + "(" + data[0].matchScore.team1Score.inngs1.overs + ")"
+    let span2 = document.createElement("span")
+    span2.innerText = data[0].matchScore.team1Score.inngs1.runs + "/" + data[0].matchScore.team2Score.inngs1.wickets + " " + "(" + data[0].matchScore.team2Score.inngs1.overs + ")"
+    let p4 = document.createElement("p")
+    p4.innerText = data[0].matchInfo.status
+    p4.className = "status"
+    // button for slider
+    let btndiv = document.createElement("div")
+    let btn1 = document.createElement("button")
+    btn1.innerText = "<"
+
+    let btn2 = document.createElement("button")
+
+    btn2.innerText = ">"
+    imgdiv.append(img1, p1)
+    namediv1.append(p2, span1)
+    namediv2.append(p3, span2)
+
+    btndiv.append(btn1, btn2)
+    div.append(h4, imgdiv, namediv1, namediv2, p4)
+    matchinfo.append(btndiv, div)
+  }
+
+  async function features() {
+    let key = "b5b02f37a12c44ecad761da4b2675aa8"
+    let res = await fetch(`https://newsapi.org/v2/everything?q=cricket&apiKey=${key}`)
+
+    let data = await res.json()
+
+    console.log(data)
+
+    //append11
+    console.log(data.articles)
+  }
+  features()
+
+  function append11(data) {
+
+    for (let i = 0; i <= 20; i++) {
+      // div creation
+      let div = document.createElement("div")
+      div.className = "news_div"
+      let div1 = document.createElement("div")
+      let div2 = document.createElement("div")
+      let image_div=document.createElement("div")
+      image_div.style.width="30%"
+      // img tag creation 
+      let thumbnail = document.createElement("img")
+      thumbnail.src = data[i].urlToImage;
+      thumbnail.className="image_for_news"
+    //title & content
+      let h1 = document.createElement("h2")
+      h1.innerText = data[i].title
+      let p1 = document.createElement("p")
+      p1.innerText = data[i].content;
+      // name &date 
+      let author = document.createElement("span")
+      author.innerText = data[i].author;
+      let date = document.createElement("span")
+      date.innerText = data[i].publishedAt;
+      image_div.append(thumbnail)
+      div2.append(author, date)
+      div1.append(h1,p1,div2)
+      div.append(image_div,div1,div2)
+      cricket_news_data.append(div)
+    }
+  }
+// author: "Tim Dowling"
+// content: "I am in the changing room of a cricket ground somewhere in Sussex. All around me men are pulling on tops bearing the names of university teams or some charity XI. Mine still has a Sports Direct tag t… [+4256 chars]"
+// description: "By the time the 10th wicket falls, my knees are skinned and I have bruises on both anklesI am in the changing room of a cricket ground somewhere in Sussex. All around me men are pulling on tops bearing the names of university teams or some charity XI. Mine st…"
+// publishedAt: "2022-07-30T05:00:18Z"
+// source: {id: null, name: 'The Guardian'}
+// title: "Tim Dowling: When it comes to cricket, try not to leave the pitch in an ambulance"
+// url: "https://amp.theguardian.com/lifeandstyle/2022/jul/30/tim-dowling-when-it-comes-to-cricket-try-not-to-leave-the-pitch-in-an-ambulance"
+// urlToImage: "https://i.guim.co.uk/img/media/2dcd5afd8eadf5380a273e3671344c58db79435a/1_0_2559_1536/master/2559.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0bb8bd2b75ffff0f0a9c975dc6896cba"
+// [[Prototype]]: Object
+// data.html:151 
+
+
+</script>
