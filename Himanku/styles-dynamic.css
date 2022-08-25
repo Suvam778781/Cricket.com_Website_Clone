@@ -1,15 +1,14 @@
 #box{
     display: flex;
-    /* flex-flow: row wrap; */
+    flex-flow: row wrap;
+    margin-left: 100px;
 }
 #box-img{
-    width:50%;
-    border: 1px solid black;
+    width:40%;
 }
 #box-detail{
-    width:50%;
-    border: 1px solid black;
+    width:40%;
 }
 #box img {
-    width: 100%;
+    width: 70%;
 }

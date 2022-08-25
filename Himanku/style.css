@@ -4,10 +4,13 @@
 }
 #body{
     width:100%;
+    background-color: #eee;
+
 }
 #main-body {
     width:72%;
     margin: auto;
+    background-color: white;
 }
 #search {
     width:100%;
@@ -21,7 +24,6 @@
 #input-box{
     width:100%;
 }
-
 
 input{
     display: block;
