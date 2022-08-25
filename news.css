@@ -4,30 +4,30 @@
     
 }
 body{
-    background-color: whitesmoke
+    background-color:rgb(232, 231, 231)
 }
 #top{
     margin-left: 150px;;
     margin-top: 0px;
     position:fixed;
-    width: 75.5%;
-    background-color: whitesmoke;
+    width: 76%;
+    background-color:rgb(232, 231, 231)
    
 }
 #top>h2{
     color: rgb(55, 51, 51);
     margin-left: 15px;
-
-    
-   
 }
 #top>button{
     padding:5px;
-    width:150px;
-    font-size: 15px;
+    width:140px;
+    font-size: 15.1px;
     cursor: pointer;
     margin-left: 15px;
     margin-bottom: 10px;;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
    
 }
 #append{

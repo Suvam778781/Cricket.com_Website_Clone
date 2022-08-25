@@ -30,7 +30,8 @@ let append=(data)=>{
           content.style.fontSize="17px"
           let author=document.createElement("p")
           author.innerText=ele.author
-          let time=document.createElement("h3")
+          author.style.fontStyle="italic"
+          let time=document.createElement("h5")
           time.id="time"
           time.innerText=ele.publishedAt
           author.style.color="black"
@@ -38,6 +39,11 @@ let append=(data)=>{
           div1.append(url,div)
           div1.id="div1"
       app.append(div1)
+      div1.style.cursor="pointer"
+      div1.addEventListener("click",function(){
+          window.location.href="news1.html"
+          localStorage.setItem("Data",JSON.stringify(ele))
+      })
     })
 }
 
@@ -65,7 +71,6 @@ function NEWS(){
    MATCHS.classList="green"
    FEATURES.classList="green"
    NEW.classList="red"
-    console.log("ram")
     let z=new_data.sort(function(a,b){
         if(a.publishedAt>b.publishedAt) return 1;
         if(a.publishedAt<b.publishedAt) return -1;

@@ -1,0 +1,27 @@
+body{
+    background-color:rgb(232, 231, 231)
+}
+#append{
+ 
+    width: 70%;
+    margin: auto;
+    background-color: white;
+}
+#append>div>img{
+    width: 100%;
+}
+#append>div>p{
+    font-size: 25px;
+    padding: 10px;
+    padding-right: 300px;
+}
+#author{
+    display: flex;
+   justify-content: end;
+   padding: 10px;;
+   font-style: italic;
+}
+/* * {
+    scroll-behavior: smooth;
+    font-family: 'Montserrat',sans-serif; 
+} */
