@@ -6,21 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="video.css">
+    <link rel="stylesheet" href="news.css">
 </head>
 <body>
-    <div id="start">
-    </div>
     <div id="navbar">
-        <p>LATEST</p>
-        <p>FANTASY</p>
-        <p>MATCHRELATED</p>
-        <p>NEWS</p>
+
+    </div>
+    <div id="play">
+
+    </div>
+    <div id="navbars">
+        <p id="LATEST" onclick="LATEST()">LATEST</p>
+        <p id="FANTASY" onclick="FANTASY()">FANTASY</p>
+        <p id="MATCHRELATED" onclick="MATCHRELATED()">MATCHRELATED</p>
+        <p id="NEWS" onclick="NEWS()">NEWS</p>
 
     </div>
    <div id="video">
 
    </div>
+   <div id="footer">
+    
+   </div>
 </body>
 </html>
+<script type="module">
+    import { navbar, footer } from './day-2/navbar&footer.js';
+    let cointainer = document.querySelector("#navbar")
 
+    cointainer.innerHTML = navbar();
+
+    let dou = document.getElementById("footer")
+
+    dou.innerHTML = footer()
+
+</script>
 <script src="./scripts/video.js"></script>

@@ -6,12 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="news1.css">
+    <link rel="stylesheet" href="news.css">
 </head>
 <body>
-    <div id="append">
+    <div id="navbar">
 
     </div>
-    
+    <div id="appends">
+
+    </div>
+    <div id="footer">
+
+    </div>
+
 </body>
 </html>
+<script type="module">
+    import { navbar, footer } from './day-2/navbar&footer.js';
+    let cointainer = document.querySelector("#navbar")
+
+    cointainer.innerHTML = navbar();
+
+    let dou = document.getElementById("footer")
+
+    dou.innerHTML = footer()
+
+</script>
 <script src="./scripts/news1.js"></script>

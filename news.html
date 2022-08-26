@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="news.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="navbar">
+
+    </div>
     <div id="top">
         <h2>News & Articles</h2>
         <button id="latest" onclick="LATEST()">LATEST</button>
@@ -20,8 +24,21 @@
        
             
     </div>
-   
+   <div id="footer">
+
+   </div>
     
 </body>
 </html>
+<script type="module">
+    import { navbar, footer } from './day-2/navbar&footer.js';
+    let cointainer = document.querySelector("#navbar")
+
+    cointainer.innerHTML = navbar();
+
+    let dou = document.getElementById("footer")
+
+    dou.innerHTML = footer()
+
+</script>
 <script src="./scripts/news.js"></script>

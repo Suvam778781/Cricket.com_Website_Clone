@@ -1,16 +1,21 @@
+*{
+    scroll-behavior: smooth;
+    font-family: 'Montserrat',sans-serif; 
+}
 body{
     background-color:rgb(232, 231, 231)
 }
-#append{
- 
+#appends{
+    
     width: 70%;
     margin: auto;
+    margin-top: 95px;;
     background-color: white;
 }
-#append>div>img{
+#appends>div>img{
     width: 100%;
 }
-#append>div>p{
+#appends>div>p{
     font-size: 25px;
     padding: 10px;
     padding-right: 300px;
@@ -21,7 +26,3 @@ body{
    padding: 10px;;
    font-style: italic;
 }
-/* * {
-    scroll-behavior: smooth;
-    font-family: 'Montserrat',sans-serif; 
-} */
