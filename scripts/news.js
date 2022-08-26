@@ -23,6 +23,7 @@ let append=(data)=>{
           let url=document.createElement('img')
           url.src=ele.urlToImage
           let title=document.createElement("h3")
+          title.id="titles"
           title.innerText=ele.title
           let content=document.createElement("p")
           content.innerText=ele.content
@@ -31,7 +32,7 @@ let append=(data)=>{
           let author=document.createElement("p")
           author.innerText=ele.author
           author.style.fontStyle="italic"
-          let time=document.createElement("h5")
+          let time=document.createElement("p")
           time.id="time"
           time.innerText=ele.publishedAt
           author.style.color="black"
