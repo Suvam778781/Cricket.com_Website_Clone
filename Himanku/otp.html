@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP</title>
+    <link rel="stylesheet" href="otp.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="/heroic-ice-5830/day-2/styles/style.css">
+</head>
+<body>
+        <div id="navbar"></div>
+        <div id="blur">
+            <div id="otp-container">
+                <div id="otp-box">
+                    <div onclick="closefunction()" id="cross">
+                        <img src="https://www.cricket.com/pngs/closeIcon.png" alt="">
+                    </div>
+                    <p>Login/Register to Cricket.com</p>
+                    <div id="no-container">
+                        <div id="flag">
+                            <img src="https://www.cricket.com/pngs/bigind.png" alt="">
+                        </div>
+                        <div id="code">
+                            <p>+91</p>
+                        </div>
+                        <div id="mob-no">
+                            <input id="ip" type="number" placeholder="Mobile number">
+                        </div>
+                    </div>
+                    <button id="get-otp" onclick="generateOTP()">GET OTP</button>
+                    <p>or</p>
+                    <p>Loggin in from outside India? <a href="">Click Here</a></p>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
+<script src="otp.js"></script>
+<script type="module">
+    import { navbar} from '/heroic-ice-5830/day-2/navbar&footer.js';
+    let nav = document.querySelector("#navbar")
+    nav.innerHTML = navbar();
+</script>

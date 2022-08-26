@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="otp.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="/heroic-ice-5830/day-2/styles/style.css">
+</head>
+<body>
+    <div id="navbar"></div>
+    <div id="blur">
+        <div id="form-container">
+            <div id="form-main">
+                <div onclick="closefunction()" id="cross">
+                    <img src="https://www.cricket.com/pngs/closeIcon.png" alt="">
+                </div>
+                <div id="round-img">
+                    <img src="https://www.cricket.com/svgs/loginteam.svg" alt="">
+                </div>
+                <div id="name-display">
+                    <div id="pic-icon">
+                        <img src="https://www.cricket.com/svgs/username.svg" alt="">
+                    </div>
+                    <div id="name-input-div">
+                        <input type="text" id="name-input" placeholder="Display Name">
+                    </div>
+                </div>
+                <div id="mobile-display">
+                    <div id="mobile-icon">
+                        <img src="https://www.cricket.com/svgs/phone.svg" alt="">
+                    </div>
+                    <div id="mobile-input-div">
+                        <input type="number" id="mobile-input" placeholder="Mobile Number">
+                    </div>
+                </div>
+                <div id="email-display">
+                    <div id="email-icon">
+                        <img src="https://www.cricket.com/svgs/email.svg" alt="">
+                    </div>
+                    <div id="email-input-div">
+                        <input type="email" id="email-input" placeholder="Email">
+                    </div>
+                </div>
+                <button id="done" onclick="done()">DONE</button>
+                <p>Love CRICKET.COM? Share with Friends</p>
+                <div id="social-media">
+                    <div id="fb">
+                        <img src="https://www.cricket.com/svgs/fb.svg" alt="">
+                    </div>
+                    <div id="tw">
+                        <img src="https://www.cricket.com/svgs/colorTwiter.svg" alt="">
+                    </div>
+                    <div id="wp">
+                        <img src="https://www.cricket.com/svgs/whatsapp.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="form.js"></script>
+<script type="module">
+    import { navbar} from '/heroic-ice-5830/day-2/navbar&footer.js';
+    let nav = document.querySelector("#navbar")
+    nav.innerHTML = navbar();
+</script>

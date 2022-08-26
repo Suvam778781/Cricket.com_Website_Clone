@@ -49,10 +49,13 @@ function appendNews(data){
 let pic_container = document.getElementById("show-image")
 function getImg(data){
     pic_container.innerHTML = null;
-    data.forEach(function({img}){
+    data.forEach(function({img, name}){
         let image = document.createElement("img");
         image.src = img;
         pic_container.append(image);
+
+        let Name_display = document.getElementById("h2");
+        Name_display.innerText = name;
     })
 }
 
