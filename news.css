@@ -28,19 +28,19 @@ body{
     font-size: 15.1px;
     cursor: pointer;
     margin-left: 15px;
-    margin-bottom: 10px;;
+    margin-bottom: 0px;;
     padding-top: 6px;
     padding-bottom: 6px;
 
    
 }
 #append{
-    width: 75.5%;
+    width: 75.2%;
     margin: auto;
     margin-top: 10px;;
  
 background-color: white;
-height: 1000px;
+height: 800px;
 overflow:scroll;
 
 
@@ -62,13 +62,18 @@ overflow:scroll;
    display: flex;
    justify-content: end;
    padding-right: 15px;;
+   font-size: 12px;
+}
+#titles{
+    color: rgb(56, 56, 107);
+    font-size: 18px;
 }
 
 .red{
     color: white;
-    background-color: rgba(180, 35, 35, 0.84);;
+    background: linear-gradient(270deg,#d44030,#9b000d);
   border-radius: 5px;;
-  border:1.5px  solid rgba(180, 35, 35, 0.84);
+  border:1.5px  solid #9b000d;
 }
 #navbar {
 
