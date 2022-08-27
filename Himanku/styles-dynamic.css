@@ -1,14 +1,45 @@
 #box{
     display: flex;
-    flex-flow: row wrap;
     margin-left: 100px;
+    margin-top: 40px;
 }
 #box-img{
-    width:40%;
+    width:30%;
 }
 #box-detail{
     width:40%;
 }
 #box img {
-    width: 70%;
+    width: 60%;
+}
+
+@media all and (min-width:320px) and (max-width:768px) {
+    #box {
+        margin: auto;
+        flex-flow: row wrap;
+        text-align: center;
+        justify-content: center;
+    }
+    #box img {
+        display: block;
+        margin: auto;
+        width:50%;
+    }
+    #box-detail>h1 {
+        font-size: 18px;
+    }
+}
+
+@media all and (min-width:320px) and (max-width:1090px) {
+    #box {
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+    }
+    #box-detail>h1 {
+        font-size: 18px;
+    }
+    #box-detail>h2 {
+        font-size: 18px;
+    }
 }
