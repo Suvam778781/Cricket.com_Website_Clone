@@ -1,4 +1,3 @@
-
 let data=JSON.parse(localStorage.getItem("Data"))
 console.log(data)
 let Data=document.getElementById("appends")
