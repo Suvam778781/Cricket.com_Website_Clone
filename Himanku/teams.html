@@ -5,12 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teams</title>
+    <link rel="stylesheet" href="main-style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="/heroic-ice-5830/day-2/styles/style.css">
     <link rel="stylesheet" href="team-styles.css">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic|Oswald:400,700" media="screen"> 
 </head>
 <body>
+    <div id="navbar"></div>
     <div id="body">
-        <div id="main-body">
+        <div id="main-body1">
             <div id="search">
                 <div id="input-box">
                     <input id="query" oninput="display()" name="search" type="text" placeholder="Team Search">
@@ -50,7 +54,15 @@
             </div>
         </div>     
     </div>
+    <div id="footer"></div>
 </body>
 </html>
 <script src="teamsdata.js"></script>
 <script src="teams.js"></script>
+<script type="module">
+    import { navbar, footer } from '/heroic-ice-5830/day-2/navbar&footer.js';
+    let nav = document.querySelector("#navbar")
+    nav.innerHTML = navbar();
+    let foot = document.getElementById("footer")
+    foot.innerHTML = footer();
+</script>

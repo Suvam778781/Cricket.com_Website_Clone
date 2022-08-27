@@ -1,0 +1,263 @@
+* {
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box; 
+    overflow: hidden;
+}
+#navbar {
+    filter: blur(5px);
+}
+#blur {
+    width:100%;
+    height:1000px;
+    background-color: rgba(0,0,0,.2); 
+    position: relative;
+}
+#otp-container {
+    width: 520px;
+    height: 300px;
+    margin: auto;
+    margin-top: 150px;
+    padding:25px;
+    border-radius: 0.5rem;
+    background-color: #fff;
+}
+#otp-box {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color: #fff;
+}
+#cross {
+    width: 100%;
+    height: 44.8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+#cross>img {
+    display: block;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cross+p {
+    margin-top: 30px;
+    font-size: 0.65rem;
+    font-weight: 600;
+    color: #777;
+}
+#no-container {
+    display: flex;
+    width: 100%;
+    height: 30.39px;
+    border-bottom: 1px solid #777;
+    color:#777;
+    font-size: 16px;
+}
+#flag {
+    width: 38.3px;
+    height: 100%;
+}
+#flag>img {
+    width:100%;
+}
+#flag p {
+    margin-top: 0;
+}
+#code {
+    width: 60px;
+    height: 100%;
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+}
+#mob-no {
+    width: 420px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#mob-no>input {
+    width: 98%;
+    height: 85%;
+    border: none;
+    outline: none;
+}
+::placeholder {
+    font-size: 16px;
+}
+#get-otp, #enter-otp, #done {
+    display: block;
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 0.5rem 1rem;
+    background-color: #777;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+}
+#get-otp+p, #get-otp+p+p {
+    text-align: center;
+    font-size: 12px;
+}
+#otp-no-container+p {
+    text-align: center;
+    font-size: 12px;
+}
+#otp-no-container+p>a {
+    color: #d64b4b;
+    font-weight: 600;
+    font-size: 12px;
+    text-decoration: none;
+}
+#get-otp+p+p>a {
+    color: #d64b4b;
+    font-weight: 600;
+    font-size: 12px;
+}
+#otp-ip{
+    width:50%;
+    display: block;
+    margin: auto;
+    padding: 8px 20px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #777;
+}
+#otp-ip {
+    font-size: 20px;
+    letter-spacing: 24px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#otp-ip::placeholder  {
+    letter-spacing: normal;
+}
+
+#form-container {
+    width: 576px;
+    height: 569px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 0.5rem;
+    background-color: #fff;
+}
+#form-main {
+    width:90%;
+    height: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+#round-img {
+    width: 100%;
+    height: 140px;   
+}
+#round-img>img {
+    height:100%;
+    display: block;
+    margin: auto;
+}
+#name-display, #mobile-display, #email-display {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+#pic-icon, #mobile-icon, #email-icon {
+    display: flex;
+    align-items: center;
+}
+#name-input-div, #mobile-input-div, #email-input-div {
+    width: 403px;
+    height:40px;
+    border-bottom: 1px solid #777;
+}
+#name-input, #mobile-input, #email-input {
+    width:90%;
+    display: block;
+    margin: auto;
+    padding:6px;
+    outline:none;
+    border: none;
+    font-size: 16px;
+}
+::placeholder {
+    font-size: 18px;
+}
+#done+p {
+    font-weight: 600;
+    font-size: 0.65rem;
+    text-align: center;
+}
+#social-media {
+    width:100%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+#fb, #tw, #wp {
+    width: 54px;
+    height: 100%;
+}
+#social-media img {
+    display: block;
+    margin: auto;
+    height:100%;
+}
+
+
+
+/* MEDIA QUERIES */
+@media all and (min-width:320px) and (max-width:449px) {
+    #otp-container {
+        width: 300px;
+        height: 250px;
+    }
+    #otp-ip {
+        width:100%
+    }
+    #cross+p {
+        margin:0;
+    }
+    #form-container {
+        width: 350px;
+        height: 420px;
+    }
+    #round-img {
+        height: 80px;   
+    }
+    #form-main {
+        margin-top: 0;
+    }
+}
+
+@media all and (min-width:450px) and (max-width:600px) {
+    #otp-container {
+        width: 350px;
+        height: 300px;
+    }
+    #otp-ip {
+        width:90%
+    }
+    #form-container {
+        width: 400px;
+        height: 470px;
+    }
+    #round-img {
+        height: 80px;   
+    }
+    #form-main {
+        margin-top: 0;
+    }
+
+}
+
+/* MEDIA QUERIES */

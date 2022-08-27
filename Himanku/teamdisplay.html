@@ -5,14 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team Details</title>
+    <link rel="stylesheet" href="/heroic-ice-5830/day-2/styles/style.css">
     <link rel="stylesheet" href="team-styles.css">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic|Oswald:400,700" media="screen"> 
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
 </head>
 <body>
+    <div id="navbar1"></div>
+    <h2 id="h2">Australia</h2>
     <div id="body">
-        <div id="main-body">
+        <div id="main-body2">
             <div id="show-image">
                 <!-- <img src="https://www.cricket.com/_next/image?url=https%3A%2F%2Fimages.cricket.com%2Fteams%2F1_actionshot_safari.jpg&w=1920&q=75" alt=""> -->
             </div>
@@ -37,6 +40,14 @@
             </div>
         </div>
     </div>
+    <div id="footer"></div>
 </body>
 </html>
 <script src="news.js"></script>
+<script type="module">
+    import { navbar, footer } from '/heroic-ice-5830/day-2/navbar&footer.js';
+    let nav = document.querySelector("#navbar1")
+    nav.innerHTML = navbar();
+    let foot = document.getElementById("footer")
+    foot.innerHTML = footer();
+</script>
