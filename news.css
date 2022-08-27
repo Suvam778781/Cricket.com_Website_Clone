@@ -66,10 +66,100 @@ overflow:scroll;
 
 .red{
     color: white;
-    background-color: rgba(180, 35, 35, 0.84);;
+    background: linear-gradient(270deg,#d44030,#9b000d);
   border-radius: 5px;;
   border:1.5px  solid rgba(180, 35, 35, 0.84);
 }
+
+
+
+@media all and (min-width: 401px) and (max-width: 800px) {
+    #append{
+        width: 100%;
+        margin: auto;
+        margin-top: 10px;;
+    background-color: white;
+    
+  }
+  #top{
+    margin: auto;
+    margin-top: 75px;
+    position:static;
+   width: 100%;;
+    background-color:rgb(232, 231, 231)
+   
+}
+#top>h2{
+    color: rgb(55, 51, 51);
+    margin-left: 15px;
+    padding-top: 20px;
+}
+  #top>button{
+    padding:5px;
+    width:123px;
+    font-size: 13.1px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-bottom: 5px;;
+    padding-top: 2px;
+    padding-bottom: 2px;
+   
+}
+}
+  /* Small screens */
+  
+  @media all and (min-width: 100px) and (max-width: 410px) {
+    #append{
+        width: 150%;
+        margin: auto;
+        margin-top: 10px;;
+    background-color: white;
+    
+    
+    
+  }
+  #top{
+    margin: auto;
+    margin-top: 75px;
+    position:static;
+   width: 160%;;
+    background-color:rgb(232, 231, 231)
+   
+}
+#top>h2{
+    color: rgb(55, 51, 51);
+   
+}
+  #top>button{
+    padding:8px;
+    width:25%;
+    font-size: 13.1px;
+    cursor: pointer;
+    padding-top: 2px;
+    padding-bottom: 2px;
+   
+}
+#append>div>img{
+    width: 100%;
+    margin: auto;
+   
+}
+#append>div>div>h3{
+  
+    padding-left: 30px;
+}
+#append>div>div>p{
+    padding-left: 30px;
+}
+#div1{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    flex-direction: column;
+}
+  }
+  
+
+
 #navbar {
 
     display: flex;
@@ -79,7 +169,7 @@ overflow:scroll;
     left: 0px;
     right: 0px;
     background-color: rgb(29, 29, 46);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
 }
 
 #img1 {
@@ -247,10 +337,11 @@ color: rgb(227, 86, 64);
 
     color: rgb(160, 157, 157);
     font-size: 13px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 #footer_e>div {
 
     margin-left: 108px;
 
 }
+
