@@ -43,10 +43,15 @@ body{
     justify-content:space-evenly;
     
 }
-#navbars>p{
+#navbars>div{
     color: grey;
     cursor: pointer;
-    padding-top: 10px;
+    font-size: 14px;
+    padding: 7px;
+    margin: auto;
+    width: 20%;;
+   
+    text-align: center;
 }
 #navbars>:hover{
     color:red;

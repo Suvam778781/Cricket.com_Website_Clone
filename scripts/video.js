@@ -67,15 +67,24 @@ let time=document.createElement("h5")
 play.append(div)
 }
 
-
+let latest=document.getElementById("LATEST")
 function LATEST(){
-   console.log("ram")
+    news.style.borderBottom=null
+    match.style.borderBottom=null
+  latest.style.borderBottom="3px solid #d64b4b"
+  fantasy.style.borderBottom=null
 
 
 }
 
+
+
+let fantasy=document.getElementById("FANTASY")
 function FANTASY(){
-    console.log("ram")
+    news.style.borderBottom=null
+    match.style.borderBottom=null
+    latest.style.borderBottom=null
+    fantasy.style.borderBottom="3px solid #d64b4b"
     let z=actualdata.sort(function(a,b){
         if(a.videoId>b.videoId) return 1;
         if(a.videoId<b.videoId) return -1;
@@ -84,10 +93,23 @@ function FANTASY(){
    append(z)
 }
 
+
+
+
+let match=document.getElementById("MATCHRELATED")
 function MATCHRELATED(){
-    console.log("ram")
+    news.style.borderBottom=null
+    latest.style.borderBottom=null
+    fantasy.style.borderBottom=null
+   match.style.borderBottom="3px solid #d64b4b"
 }
 
+
+
+let news=document.getElementById("NEWS")
 function NEWS(){
-    console.log("ram")
+    latest.style.borderBottom=null
+    fantasy.style.borderBottom=null
+   match.style.borderBottom=null
+ news.style.borderBottom="3px solid #d64b4b"
 }
