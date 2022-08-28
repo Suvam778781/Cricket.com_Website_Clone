@@ -12,5 +12,5 @@ let validateOTP=()=>{
 }
 
 let closefunction = ()=> {
-    location.href="./player.html"
+    location.href="/Suvam panda/index.html"
 }

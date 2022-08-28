@@ -11,5 +11,5 @@ function generateOTP(){
 }
 
 function closefunction(){
-    location.href="./player.html"
+    location.href="/Suvam panda/index.html"
 }
