@@ -1,8 +1,8 @@
-let key='AIzaSyA6oKyep5hfcg48tu2xiwqg86FYM4_3-a4'
+let key='AIzaSyCBI-yg4UA7C0YTKBt4LN_mPdsKkTTxal4'
 let actualdata;
 let getdata=async()=>{
     try{
-        let res=await fetch(` https://youtube.googleapis.com/youtube/v3/search?q=cricketnews&key=${key}&part=snippet&maxResults=20`)
+        let res=await fetch(`https://youtube.googleapis.com/youtube/v3/search?q=cricketnews&key=${key}&part=snippet&maxResults=20`)
        
         let data=await res.json()
          actualdata=data.items
