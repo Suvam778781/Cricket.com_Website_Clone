@@ -1,0 +1,77 @@
+*{
+    scroll-behavior: smooth;
+    font-family: 'Montserrat',sans-serif; 
+}
+body{
+    background-color:rgb(232, 231, 231)
+}
+#appends{
+    
+    width: 70%;
+    margin: auto;
+    margin-top: 95px;;
+    background-color: white;
+}
+#appends>div>img{
+    width: 100%;
+}
+#appends>div>p{
+    font-size: 25px;
+    padding: 10px;
+    padding-right: 300px;
+}
+#author{
+    display: flex;
+   justify-content: end;
+   padding: 10px;;
+   font-style: italic;
+}
+
+
+@media all and (min-width: 401px) and (max-width: 800px) {
+    #appends{
+        width: 100%;
+        margin: auto;
+        margin-top: 95px;;
+        background-color: white;
+    }
+    #appends>div>img{
+        width: 100%;
+    }
+    #appends>div>p{
+        font-size: 25px;
+        padding: 10px;
+        padding-right: 100px;
+    }
+    #author{
+        display: flex;
+       justify-content: end;
+       padding: 10px;;
+       font-style: italic;
+    }
+    
+   
+}
+@media all and (min-width: 100px) and (max-width: 410px) {
+    #appends{
+        width: 140%;
+        margin: auto;
+        margin-top: 95px;;
+        background-color: white;
+    }
+    #appends>div>img{
+        width: 100%;
+    }
+    #appends>div>p{
+        font-size: 25px;
+        padding: 10px;
+       
+    }
+    #author{
+        display: flex;
+       justify-content: end;
+       padding: 10px;;
+       font-style: italic;
+    }
+   
+}

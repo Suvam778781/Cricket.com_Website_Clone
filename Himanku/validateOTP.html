@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP</title>
+    <link rel="stylesheet" href="otp.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="/Suvam panda/styles/style.css">
+</head>
+<body>
+    <div id="navbar"></div>
+    <div id="blur">
+        <div id="otp-container">
+            <div id="otp-box">
+                <div onclick="closefunction()" id="cross">
+                    <img src="https://www.cricket.com/pngs/closeIcon.png" alt="">
+                </div>
+                <p>ENTER OTP</p>
+                <div id="otp-no-container">
+                    <input id="otp-ip" type="number" placeholder="ENTER OTP">
+                </div>
+                <p>Didn't receive OTP ? <a href="">RESEND</a></p>
+                <button id="enter-otp" onclick="validateOTP()">CONFIRM</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="validateotp.js"></script>
+<script type="module">
+    import { navbar} from '/Suvam panda/navbar&footer.js';
+    let nav = document.querySelector("#navbar")
+    nav.innerHTML = navbar();
+</script>
+<script src="Suvam panda/scripts/mainjs.js"></script>
