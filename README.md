@@ -1,16 +1,16 @@
 
-# MyNetDiary-Clone
+# Cricket.com-Clone
 
-Mentimeter enables you to: Engage with students using live polls, word clouds, quizzes, multiple-choice questions and more.Created the Sign-in and Sign-up functionality.
-Created two-three pages.
-Good UI with navbar.
+Get live cricket scores, scorecard updates, match schedule, predictions & results, stats, latest news & videos of all international, domestic & T20 series. We Created the Sign-in and Sign-up functionality.
+Created Live news pages and live news video pages also providing functionality like sorting whatever we need click on the option and data will be sorted
+Good UI with resposive
 
 
 
 ## 🔗 Links
-netlify link - https://chic-bonbon-92e1a1.netlify.app/
+netlify link - https://heroic-ice-5830-suvam778781.vercel.app/
 
-github - https://github.com/Adarsh-nihal/Mentimeter-Website-Clone
+github - https://github.com/Suvam778781/Cricket.com_Website_Clone
 
 
 
@@ -18,9 +18,11 @@ github - https://github.com/Adarsh-nihal/Mentimeter-Website-Clone
 
 * Login Page
 * SignUp Page
-* Different pages based on different category
-* Enterprises Page
-* explore more features
+* live News pages
+* live VideoNews Pages
+* navbar
+* some more pages
+
 
 ### Tech Stack
 
@@ -28,29 +30,37 @@ github - https://github.com/Adarsh-nihal/Mentimeter-Website-Clone
 * CSS
 * Javascript 
 
-# It is Individual Project
+# It is Gruop Project 
+
+ * Adarsh Gupta
+ * Himanku Gagoi
+ * Suvam panda
+
+
 
 ## Screenshots
 
-![App Screenshot](https://github.com/Adarsh-nihal/Github-image/blob/main/Mentimeter/Screenshot%20(1021).png?raw=true)
+![App Screenshot](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1035).png?raw=true)
 
-![App Screenshot](https://github.com/Adarsh-nihal/Github-image/blob/main/Mentimeter/Screenshot%20(1022).png?raw=true)
-![Screenshot (32)](https://github.com/Adarsh-nihal/Github-image/blob/main/Mentimeter/Screenshot%20(1023).png?raw=true)
+![App Screenshot](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1036).png?raw=true)
+![Screenshot (32)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1037).png?raw=true)
 
-![Screenshot (33)](https://github.com/Adarsh-nihal/Github-image/blob/main/Mentimeter/Screenshot%20(1024).png?raw=true)
-![Screenshot (34)](https://github.com/Adarsh-nihal/Github-image/blob/main/Mentimeter/Screenshot%20(1026).png?raw=true)
-![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Mentimeter/Screenshot%20(1027).png?raw=true)
+![Screenshot (33)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1038).png?raw=true)
+![Screenshot (34)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1039).png?raw=true)
+![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1040).png?raw=true)
 
-![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Mentimeter/Screenshot%20(1028).png?raw=true)
+![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1041).png?raw=true)
 
-![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Mentimeter/Screenshot%20(1029).png?raw=true)
+![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1042).png?raw=true)
 
-![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Mentimeter/Screenshot%20(1030).png?raw=true)
+![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1043).png?raw=true)
 
-![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Mentimeter/Screenshot%20(1031).png?raw=true)
+![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1044).png?raw=true)
 
-![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Mentimeter/Screenshot%20(1033).png?raw=true)
-![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Mentimeter/Screenshot%20(1034).png?raw=true)
+![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1045).png?raw=true)
+![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1046).png?raw=true)
+![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1047).png?raw=true)
+![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1048).png?raw=true)
 
 
 
