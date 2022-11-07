@@ -33,7 +33,7 @@ github - https://github.com/Suvam778781/Cricket.com_Website_Clone
 # It is Gruop Project 
 
  * Adarsh Gupta
- * Himanku Gagoi
+ * Himanku Gogoi
  * Suvam panda
 
 
