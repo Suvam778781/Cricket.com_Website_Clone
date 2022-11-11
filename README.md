@@ -30,7 +30,7 @@ github - https://github.com/Suvam778781/Cricket.com_Website_Clone
 * CSS
 * Javascript 
 
-# It is Gruop Project 
+# It's a Group Project 
 
  * Adarsh Gupta
  * Himanku Gogoi
