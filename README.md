@@ -8,7 +8,7 @@ Good UI with resposive
 
 
 ## 🔗 Links
-netlify link - https://heroic-ice-5830-suvam778781.vercel.app/
+vercel link - https://cricket-com-website-clone.vercel.app/
 
 github - https://github.com/Suvam778781/Cricket.com_Website_Clone
 
