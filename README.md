@@ -42,25 +42,12 @@ github - https://github.com/Suvam778781/Cricket.com_Website_Clone
 
 ![App Screenshot](https://i.ibb.co/s94tLx5/2023-02-28-1.png?raw=true)
 
-![App Screenshot](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1036).png?raw=true)
+![App Screenshot](https://i.ibb.co/mhLztQk/2023-02-28-2.png?raw=true)
 ![Screenshot (32)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1037).png?raw=true)
 
 ![Screenshot (33)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1038).png?raw=true)
 ![Screenshot (34)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1039).png?raw=true)
 ![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1040).png?raw=true)
-
-![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1041).png?raw=true)
-
-![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1042).png?raw=true)
-
-![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1043).png?raw=true)
-
-![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1044).png?raw=true)
-
-![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1045).png?raw=true)
-![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1046).png?raw=true)
-![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1047).png?raw=true)
-![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1048).png?raw=true)
 
 
 
