@@ -40,7 +40,7 @@ github - https://github.com/Suvam778781/Cricket.com_Website_Clone
 
 ## Screenshots
 
-![App Screenshot](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1035).png?raw=true)
+![App Screenshot](https://i.ibb.co/s94tLx5/2023-02-28-1.png?raw=true)
 
 ![App Screenshot](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1036).png?raw=true)
 ![Screenshot (32)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1037).png?raw=true)
