@@ -42,8 +42,8 @@ github - https://github.com/Suvam778781/Cricket.com_Website_Clone
 
 ![App Screenshot](https://i.ibb.co/s94tLx5/2023-02-28-1.png?raw=true)
 ![App Screenshot](https://i.ibb.co/mhLztQk/2023-02-28-2.png?raw=true)
-![Screenshot (32)](https://i.ibb.co/W3drTvN/2023-02-28-4.png?raw=true)
-![Screenshot (33)](https://i.ibb.co/QjkbFqq/2023-02-28-5.png?raw=true)
+![App Screenshot](https://i.ibb.co/W3drTvN/2023-02-28-4.png?raw=true)
+![App Screenshot](https://i.ibb.co/QjkbFqq/2023-02-28-5.png?raw=true)
 
 
 
